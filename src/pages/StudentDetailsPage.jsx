@@ -2,7 +2,7 @@ import placeholderImage from "./../assets/placeholder.png";
 import studentsData from "./../assets/students.json";
 import { useParams, Link } from "react-router-dom"; // <== IMPORT
 
-function StudentDetailsPage(props) {
+function StudentDetailsPage() {
   // Find the current student profile by id.
   // In this case, the student with id 1. The `studentId` is hard-coded for now.
   // This could be a URL parameter from React Router, e.g. /students/:studentId
